@@ -1,0 +1,31 @@
+@import '../scss/reset';
+@import '../scss/variables';
+@import '../scss/placeholders';
+@import '../scss/mixins';
+
+body {
+    font-family: $font-family;
+}
+
+.brain {
+    width: 60px;
+    height: 60px;
+}
+
+.rainbow {
+    margin-left: 15px;
+}
+
+.cards {
+    @include display-flex;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+.rainbow-1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
